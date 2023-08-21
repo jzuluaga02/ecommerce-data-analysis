@@ -1,0 +1,1 @@
+SELECT customer_first_name,profit_per_order as maximum_profit_last_year FROM ecommerce_data WHERE YEAR(ship_date) >= 2022 ORDER BY profit_per_order DESC;
